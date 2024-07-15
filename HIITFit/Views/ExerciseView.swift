@@ -64,7 +64,7 @@ struct ExerciseView: View {
                 Button("Start/Done") {}
                     .font(.title3)
                     .padding()
-                Text("Rating")
+                RatingView()
                 Spacer()
                 Button("History") {}
                     .font(.title3)
