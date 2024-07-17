@@ -16,7 +16,7 @@ struct HistoryView: View {
     
     var body: some View {
         ZStack(alignment: .topTrailing) {
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+            Button(action: {}) {
                 Image(systemName: "xmark.circle")
             }
             .font(.title)
