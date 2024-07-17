@@ -144,7 +144,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
-				ORGANIZATIONNAME = "Ray Wenderlich";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					CD30C91F251474DC0049DB93 = {
 						CreatedOnToolsVersion = 12.2;
