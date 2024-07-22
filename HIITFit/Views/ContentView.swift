@@ -11,7 +11,8 @@ struct ContentView: View {
   var body: some View {
       TabView {
           WelcomeView()
-          ForEach(0..<4) { index in
+          
+          ForEach(0..<Exercise.exercises.count, id: \.self) { index in
               ExerciseView(index: index)
           }
       }
