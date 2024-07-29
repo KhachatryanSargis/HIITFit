@@ -21,8 +21,33 @@ struct RaisedButton_Previews: PreviewProvider {
         ZStack {
             RaisedButton()
                 .padding(20)
+                .buttonStyle(RaisedButtonStyle())
         }
         .background(Color("background"))
         .previewLayout(.sizeThatFits)
+    }
+}
+
+struct RaisedButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .frame(maxWidth: .infinity)
+            .padding([.top, .bottom], 12)
+            .background(
+                Capsule()
+                    .foregroundColor(Color("background"))
+                    .shadow(
+                        color: Color("drop-shadow"),
+                        radius: 4,
+                        x: 6,
+                        y: 6
+                    )
+                    .shadow(
+                        color: Color("drop-highlight"),
+                        radius: 4,
+                        x: -6,
+                        y: -6
+                    )
+            )
     }
 }
