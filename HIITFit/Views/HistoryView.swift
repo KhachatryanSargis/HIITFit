@@ -18,7 +18,7 @@ struct HistoryView: View {
                 Image(systemName: "xmark.circle")
             }
             .font(.title)
-            .padding(.trailing)
+            .padding([.trailing, .top])
             VStack {
                 Text("History")
                     .font(.title)

@@ -8,20 +8,28 @@
 import SwiftUI
 
 struct RaisedButton: View {
+    let buttonText: String
+    let action: () -> Void
+    
     var body: some View {
-        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-            Text("Get Started")
-                .raisedButtonTextStyle()
-        })
+        Button(
+            action: {
+                action()
+            },
+            label: {
+                Text(buttonText)
+                    .raisedButtonTextStyle()
+            }
+        )
+        .buttonStyle(RaisedButtonStyle())
     }
 }
 
 struct RaisedButton_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
-            RaisedButton()
+            RaisedButton(buttonText: "Get Started") {}
                 .padding(20)
-                .buttonStyle(RaisedButtonStyle())
         }
         .background(Color("background"))
         .previewLayout(.sizeThatFits)
