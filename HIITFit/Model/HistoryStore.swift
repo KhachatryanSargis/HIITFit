@@ -26,6 +26,11 @@ class HistoryStore: ObservableObject {
         }
     }
     
+    convenience init(debugData: Bool) {
+        self.init()
+        createDevData()
+    }
+    
     func addDoneExercise(_ exerciseName: String) {
         let today = Date()
         
