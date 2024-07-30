@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F45CA1A2C5969D600AE2698 /* IndentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F45CA192C5969D600AE2698 /* IndentView.swift */; };
 		0F48B09C2C3ED97C0032D1B9 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F48B09B2C3ED97C0032D1B9 /* WelcomeView.swift */; };
 		0F48B09E2C3ED99F0032D1B9 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F48B09D2C3ED99F0032D1B9 /* ExerciseView.swift */; };
 		0F55B1882C56A47300B44B8D /* RaisedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F55B1872C56A47300B44B8D /* RaisedButton.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F45CA192C5969D600AE2698 /* IndentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndentView.swift; sourceTree = "<group>"; };
 		0F48B09B2C3ED97C0032D1B9 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		0F48B09D2C3ED99F0032D1B9 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		0F55B1872C56A47300B44B8D /* RaisedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaisedButton.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				0F55B18D2C58052E00B44B8D /* ContainerView.swift */,
 				0F55B18F2C580CFC00B44B8D /* WelcomeImages.swift */,
 				0F55B1912C580F0600B44B8D /* GradientBackground.swift */,
+				0F45CA192C5969D600AE2698 /* IndentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				0F55B1902C580CFC00B44B8D /* WelcomeImages.swift in Sources */,
 				0F6AEBC62C56392A00F8822A /* ExerciseDay.swift in Sources */,
+				0F45CA1A2C5969D600AE2698 /* IndentView.swift in Sources */,
 				0F55B1882C56A47300B44B8D /* RaisedButton.swift in Sources */,
 				0F6AEBC42C55803D00F8822A /* TimerView.swift in Sources */,
 				0F48B09E2C3ED99F0032D1B9 /* ExerciseView.swift in Sources */,
